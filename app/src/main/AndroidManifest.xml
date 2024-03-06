@@ -13,6 +13,12 @@
         android:theme="@style/Theme.RelearnAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".animation.AnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".widget.CustomViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".mvi.test.MVITestActivity"
             android:exported="false" />
         <activity

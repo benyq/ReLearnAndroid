@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.benyq.relearnandroid'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.benyq.relearnandroid"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -68,5 +68,8 @@ dependencies {
     //datastore
     implementation("androidx.datastore:datastore-preferences:1.0.0")
     implementation("androidx.datastore:datastore-preferences-core:1.0.0")
+    def nav_version = "2.7.5"
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
 }

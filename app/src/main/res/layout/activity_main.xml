@@ -17,8 +17,22 @@
                 android:id="@+id/btn_mvi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:text="MVI" />
 
+            <Button
+                android:id="@+id/btn_custom_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="自定义View" />
+
+            <Button
+                android:id="@+id/btn_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="动画" />
 
         </LinearLayout>
 
