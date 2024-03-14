@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "RelearnAndroid"
 include ':app'
 include ':ipc:ipc_server'
+include ':ipc:ipc_client'

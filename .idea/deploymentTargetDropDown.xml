@@ -5,6 +5,12 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="ipc.ipc_client">
+        <State />
+      </entry>
+      <entry key="ipc.ipc_server">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
