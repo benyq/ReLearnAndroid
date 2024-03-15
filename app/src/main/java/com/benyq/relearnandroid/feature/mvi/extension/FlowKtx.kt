@@ -1,13 +1,13 @@
-package com.benyq.relearnandroid.mvi.extension
+package com.benyq.relearnandroid.feature.mvi.extension
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.benyq.relearnandroid.mvi.UiEvent
-import com.benyq.relearnandroid.mvi.UiState
-import com.benyq.relearnandroid.mvi.internal.StateTuple2
-import com.benyq.relearnandroid.mvi.internal.StateTuple3
+import com.benyq.relearnandroid.feature.mvi.UiEvent
+import com.benyq.relearnandroid.feature.mvi.UiState
+import com.benyq.relearnandroid.feature.mvi.internal.StateTuple2
+import com.benyq.relearnandroid.feature.mvi.internal.StateTuple3
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map

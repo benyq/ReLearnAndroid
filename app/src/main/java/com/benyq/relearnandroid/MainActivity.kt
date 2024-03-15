@@ -4,9 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.NavigationUI
-import com.benyq.relearnandroid.animation.AnimationActivity
+import com.benyq.relearnandroid.feature.animation.AnimationActivity
 import com.benyq.relearnandroid.databinding.ActivityMainBinding
-import com.benyq.relearnandroid.mvi.test.MVITestActivity
+import com.benyq.relearnandroid.feature.mvi.test.MVITestActivity
+import com.benyq.relearnandroid.feature.record_stack.RecordStackActivity
 import com.benyq.relearnandroid.widget.CustomViewActivity
 
 class MainActivity : AppCompatActivity() {
@@ -26,5 +27,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnAnimation.setOnClickListener {
             startActivity(Intent(this, AnimationActivity::class.java))
         }
+        binding.btnRecordStack.setOnClickListener {
+            startActivity(Intent(this, RecordStackActivity::class.java))
+        }
+
     }
 }

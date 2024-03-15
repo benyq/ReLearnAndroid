@@ -1,7 +1,7 @@
-package com.benyq.relearnandroid.mvi.test
+package com.benyq.relearnandroid.feature.mvi.test
 
-import com.benyq.relearnandroid.mvi.UiEvent
-import com.benyq.relearnandroid.mvi.UiState
+import com.benyq.relearnandroid.feature.mvi.UiEvent
+import com.benyq.relearnandroid.feature.mvi.UiState
 
 /**
  *

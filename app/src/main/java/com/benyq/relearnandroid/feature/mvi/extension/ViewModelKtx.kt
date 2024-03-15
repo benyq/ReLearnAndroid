@@ -1,11 +1,11 @@
-package com.benyq.relearnandroid.mvi.extension
+package com.benyq.relearnandroid.feature.mvi.extension
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.benyq.relearnandroid.mvi.ContainerLazy
-import com.benyq.relearnandroid.mvi.MutableContainer
-import com.benyq.relearnandroid.mvi.UiEvent
-import com.benyq.relearnandroid.mvi.UiState
+import com.benyq.relearnandroid.feature.mvi.ContainerLazy
+import com.benyq.relearnandroid.feature.mvi.MutableContainer
+import com.benyq.relearnandroid.feature.mvi.UiEvent
+import com.benyq.relearnandroid.feature.mvi.UiState
 
 /**
  * 构建viewModel的Ui容器，存储Ui状态和一次性事件

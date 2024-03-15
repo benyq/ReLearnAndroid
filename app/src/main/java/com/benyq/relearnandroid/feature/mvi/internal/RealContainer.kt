@@ -1,8 +1,8 @@
-package com.benyq.relearnandroid.mvi.internal
+package com.benyq.relearnandroid.feature.mvi.internal
 
-import com.benyq.relearnandroid.mvi.MutableContainer
-import com.benyq.relearnandroid.mvi.UiEvent
-import com.benyq.relearnandroid.mvi.UiState
+import com.benyq.relearnandroid.feature.mvi.MutableContainer
+import com.benyq.relearnandroid.feature.mvi.UiEvent
+import com.benyq.relearnandroid.feature.mvi.UiState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

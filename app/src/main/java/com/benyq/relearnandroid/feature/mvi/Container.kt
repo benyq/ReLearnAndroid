@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.mvi
+package com.benyq.relearnandroid.feature.mvi
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow

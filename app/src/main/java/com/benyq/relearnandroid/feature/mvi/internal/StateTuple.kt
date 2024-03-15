@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.mvi.internal
+package com.benyq.relearnandroid.feature.mvi.internal
 
 internal data class StateTuple1<A>(val a: A)
 internal data class StateTuple2<A, B>(val a: A, val b: B)

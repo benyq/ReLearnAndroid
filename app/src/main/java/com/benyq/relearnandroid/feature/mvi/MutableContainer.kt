@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.mvi
+package com.benyq.relearnandroid.feature.mvi
 
 interface MutableContainer<STATE : UiState, SINGLE_EVENT : UiEvent> :
     Container<STATE, SINGLE_EVENT> {

@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.mvi.test
+package com.benyq.relearnandroid.feature.mvi.test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,8 +8,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import com.benyq.relearnandroid.R
-import com.benyq.relearnandroid.mvi.extension.collectSingleEvent
-import com.benyq.relearnandroid.mvi.extension.collectState
+import com.benyq.relearnandroid.feature.mvi.extension.collectSingleEvent
+import com.benyq.relearnandroid.feature.mvi.extension.collectState
 
 class MVITestActivity : AppCompatActivity() {
     private val viewModel by viewModels<MVIViewModel>()

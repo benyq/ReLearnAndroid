@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.mvi
+package com.benyq.relearnandroid.feature.mvi
 
 import androidx.annotation.Keep
 

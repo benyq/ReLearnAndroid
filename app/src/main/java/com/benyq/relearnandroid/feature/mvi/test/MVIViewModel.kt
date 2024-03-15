@@ -1,7 +1,7 @@
-package com.benyq.relearnandroid.mvi.test
+package com.benyq.relearnandroid.feature.mvi.test
 
 import androidx.lifecycle.ViewModel
-import com.benyq.relearnandroid.mvi.extension.containers
+import com.benyq.relearnandroid.feature.mvi.extension.containers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
 

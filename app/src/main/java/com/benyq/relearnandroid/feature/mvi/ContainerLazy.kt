@@ -1,6 +1,6 @@
-package com.benyq.relearnandroid.mvi
+package com.benyq.relearnandroid.feature.mvi
 
-import com.benyq.relearnandroid.mvi.internal.RealContainer
+import com.benyq.relearnandroid.feature.mvi.internal.RealContainer
 import kotlinx.coroutines.CoroutineScope
 
 class ContainerLazy<STATE : UiState, SINGLE_EVENT : UiEvent>(

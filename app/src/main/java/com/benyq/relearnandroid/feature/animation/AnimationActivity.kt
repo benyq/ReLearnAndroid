@@ -1,4 +1,4 @@
-package com.benyq.relearnandroid.animation
+package com.benyq.relearnandroid.feature.animation
 
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
