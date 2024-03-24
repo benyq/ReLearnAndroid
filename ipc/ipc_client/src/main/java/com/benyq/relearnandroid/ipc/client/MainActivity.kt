@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.tv).setOnClickListener {
-//            connectService()
-            startActivity(Intent("android.intent.action.benyq"))
+            connectService()
+//            startActivity(Intent("android.intent.action.benyq"))
         }
     }
 
