@@ -13,22 +13,25 @@
         android:theme="@style/Theme.RelearnAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".feature.other_app_func.OtherAppFunctionActivity"
+            android:exported="false" />
+        <activity
             android:name=".feature.record_stack.RecordStackActivity"
             android:exported="false" />
         <activity
             android:name=".feature.record_stack.Activity_A"
-            android:launchMode="singleTask"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.benyq" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".feature.record_stack.Activity_B"
-            android:taskAffinity="com.task.benyq"
-            android:exported="false">
-        </activity>
+            android:exported="false"
+            android:taskAffinity="com.task.benyq"></activity>
         <activity
             android:name=".feature.animation.AnimationActivity"
             android:exported="false" />
@@ -49,6 +52,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".feature.other_app_func.flip_book_cover.BookshelfActivity" />
+        <activity android:name=".feature.other_app_func.flip_book_cover.ReaderActivity"
+            android:theme="@style/TransTheme"/>
     </application>
 
 </manifest>
